@@ -8,6 +8,6 @@ public class Main {
         Scanner sc = new Scanner(System.in);
         String operation = sc.nextLine();
         Calculator calculator = new Calculator();
-        System.out.println("The result is: "+ calculator.calculate(operation));
+        System.out.printf("The result is: %.2f",calculator.calculate(operation));
     }
 }
